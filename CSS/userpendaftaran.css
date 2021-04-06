@@ -1,5 +1,5 @@
 :root {
-    background: url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80");
+    background: url("https://images.unsplash.com/photo-1538688525198-9b88f6f53126?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20,12 +20,9 @@
     -ms-border-radius: 20px;
 }
 
-.signup-content {
-}
-
 .form {
     background: #f4f7f8;
-    margin: 0 0 0 60%;
+    margin: 0 0 0 55%;
     padding: 10px;
     background: #f4f7f8;
     border-radius: 10px;
@@ -48,11 +45,11 @@ h2 {
 .form input[type="number"],
 .form input[type="email"],
 .form select {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Roboto', sans-serif;
     background: rgba(255, 255, 255, .1);
     border: none;
     border-radius: 4px;
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
     outline: 0;
     padding: 10px;
@@ -92,7 +89,18 @@ h2 {
     float: left;
     margin: 60 0 0 0%;
     padding:10px auto;
-    text-align:right;
-    font-size:14px;
+}
+
+.signup-image-link {
     font-family: Calibri;
+    font-size:14px;
+    position:relative;
+    margin:auto 85px;
+}
+
+.judulweb {
+    font-family:'Londrina Solid', cursive;
+    font-size: 28px;
+    float: right;
+    margin: 15 390 0 0
 }
