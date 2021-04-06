@@ -1,0 +1,98 @@
+:root {
+    background: url("https://images.unsplash.com/photo-1523878288860-7ad281611901?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 700px;
+    background: #ffffff;
+    margin: 60 auto;
+    box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+}
+
+.signup-content {
+}
+
+.form {
+    background: #f4f7f8;
+    margin: 0px 0px 0px 400px;
+    padding: 10px;
+    background: #f4f7f8;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form label {
+    display: block;
+    font-size: 14px;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="number"],
+.form input[type="email"],
+.form select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255, 255, 255, .1);
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: content-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color: #5d5d5d;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 30px;
+}
+
+.form input[type="submit"] {
+    position: relative;
+    display: block;
+    padding: 10px 20px 10px 20px;
+    color: #FFF;
+    margin: 10 auto;
+    background: #1abc9c;
+    font-size: 12px;
+    text-align: center;
+    font-style: normal;
+    width: auto;
+    border: 1px solid #16a085;
+    border-radius: 20px;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+.form input[type="submit"]:hover {
+    background: #109177;
+}
+
+.gambar {
+    float: left;
+    margin: 60px 0px 0px 10px;
+    padding:10px auto;
+    text-align:right;
+    font-size:14px;
+    font-family: Calibri;
+}
